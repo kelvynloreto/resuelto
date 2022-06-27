@@ -83,8 +83,12 @@ h6 {
 }
 
 
-
-
+.auxTime{
+    display: inline-block;
+}
+.auxTime:hover{
+    color: var(--Desaturated-blue);
+}
 h2 {
     font-weight: lighter;
     letter-spacing: 2px;
