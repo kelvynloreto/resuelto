@@ -185,8 +185,23 @@ section .time {
 
 }
 
-
-
 .selfCare__box {
     background-color: var(--Soft-orange-self-are)
+}
+@media (max-width:600px) {
+    .motherbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .photo__name .photo {
+        padding-left: 20px;
+        display: flex;
+        width: 30%;
+        margin-top: 50px;
+        }
+    .motherbox nav{
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
 }
